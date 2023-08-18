@@ -3,7 +3,7 @@
 #### Frontend developer
 
 - Tech stack: HTML, CSS, JavaScript, TypeScript, React, React Native, and Next.js.
-- Studing in computer science at Technical School No. 35 (arg).",
+- Studing in computer science at Technical School No. 35 (arg).,
 
 #### Contact me
 
