@@ -1,15 +1,19 @@
 import { JSX, useState, useEffect } from "react";
 import { Switch } from "@nextui-org/react";
 
+import i18next from "../../i18n";
+
 export default function LanguageSwitch(): JSX.Element {
-  const [isSelected, setIsSelected] = useState(true); // Estado para el interruptor
+  const [isSelected, setIsSelected] = useState(true);
 
   const handleSwitchChange = () => {
     setIsSelected(!isSelected);
 
     if (isSelected) {
+      i18next.changeLanguage("es");
       localStorage.setItem("lang", "es");
     } else {
+      i18next.changeLanguage("en");
       localStorage.setItem("lang", "en");
     }
   };

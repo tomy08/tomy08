@@ -9,12 +9,14 @@ import {
 } from "@nextui-org/react";
 import { Github } from "@react-symbols/icons";
 import { motion } from "framer-motion";
-import { textsLanguage } from "../utils/utils";
 
 import LanguageSwitch from "./LanguageSwitch";
 
+import { useTranslation } from "react-i18next";
+
 export default function Header(): JSX.Element {
-  const { header } = textsLanguage["en"];
+  const { t } = useTranslation();
+
   return (
     <Card fullWidth radius="lg">
       <CardBody className="flex-row justify-center items-center gap-4 relative overflow-hidden">
@@ -36,7 +38,7 @@ export default function Header(): JSX.Element {
             isBlurred
             src="/avatar.jpg"
             alt="Tomás Santa Cruz"
-            className="m-5 w-32 h-32"
+            className="m-5 w-36 h-36"
           />
         </motion.div>
 
@@ -54,7 +56,7 @@ export default function Header(): JSX.Element {
             animate={{ opacity: 0.9 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            {header.slogan}
+            {t("header.slogan")}
           </motion.h2>
           <Divider className="my-2" />
           <motion.div
@@ -69,10 +71,10 @@ export default function Header(): JSX.Element {
               </motion.div>
             </a>
             <Button color="primary" variant="bordered" className="h-10">
-              {header.cv}
+              {t("header.cv")}
             </Button>
 
-            <Snippet variant="bordered" className="h-10">
+            <Snippet symbol="" variant="bordered" className="h-10">
               tomasesantacruz@gmail.com
             </Snippet>
           </motion.div>

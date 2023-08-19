@@ -1,18 +1,20 @@
 import { Card, CardHeader, Image } from "@nextui-org/react";
+import { FC, SVGProps } from "react";
 import ProyectFooter from "./ProjectFooter";
+import { Cards } from "../types/types";
 
-import { Cards } from "../types";
-
-interface ProjectCardProps {
-  cardData: Cards;
+interface Props {
+  cards: Cards;
+  technologies: FC<SVGProps<SVGSVGElement>>[];
   containerClassName: string;
 }
 
 export default function ProjectCard({
-  cardData,
+  cards,
   containerClassName,
-}: ProjectCardProps) {
-  const { title, description, link, image, technologies } = cardData;
+  technologies,
+}: Props) {
+  const { title, description, link, image } = cards;
 
   return (
     <Card className={containerClassName}>

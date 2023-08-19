@@ -1,11 +1,13 @@
 import { Tabs, Tab } from "@nextui-org/react";
 import { motion } from "framer-motion";
-import { textsLanguage } from "../utils/utils";
+
 import AboutMe from "./AboutMe";
 import Proyects from "./ProjectsContainer";
 
+import { useTranslation } from "react-i18next";
+
 export default function NavBar() {
-  const { nav } = textsLanguage["en"];
+  const { t } = useTranslation();
   return (
     <div className="flex w-full flex-col my-8">
       <motion.div
@@ -14,10 +16,10 @@ export default function NavBar() {
         transition={{ duration: 0.4, delay: 0.8 }}
       >
         <Tabs aria-label="Options" color="primary" variant="bordered">
-          <Tab key={nav.proyects.title} title={nav.proyects.title}>
+          <Tab key={t("nav.projects.title")} title={t("nav.projects.title")}>
             <Proyects />
           </Tab>
-          <Tab key={nav.about.title} title={nav.about.title}>
+          <Tab key={t("nav.about.title")} title={t("nav.about.title")}>
             <AboutMe />
           </Tab>
         </Tabs>
