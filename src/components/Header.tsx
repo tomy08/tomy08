@@ -19,7 +19,7 @@ export default function Header(): JSX.Element {
 
   return (
     <Card fullWidth radius="lg">
-      <CardBody className="flex-row justify-center items-center gap-4 relative overflow-hidden">
+      <CardBody className="flex-row justify-center flex-wrap items-center gap-4 relative overflow-hidden">
         <motion.div
           initial={{ opacity: 0, x: 100 }}
           animate={{ opacity: 1, x: 0 }}
@@ -38,7 +38,7 @@ export default function Header(): JSX.Element {
             isBlurred
             src="/avatar.jpg"
             alt="Tomás Santa Cruz"
-            className="m-5 w-36 h-36"
+            className="m-2 md:m-5  w-36 h-36"
           />
         </motion.div>
 
@@ -47,7 +47,7 @@ export default function Header(): JSX.Element {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-4xl font-bold text-primary "
+            className="text-3xl sm:text-4xl  font-bold text-primary text-center"
           >
             Tomás Santa Cruz 👨‍💻
           </motion.h1>
@@ -55,15 +55,16 @@ export default function Header(): JSX.Element {
             initial={{ opacity: 0 }}
             animate={{ opacity: 0.9 }}
             transition={{ duration: 0.6, delay: 0.4 }}
+            className="text-xl sm:text-2xl font-bold text-center text-white/95"
           >
             {t("header.slogan")}
           </motion.h2>
-          <Divider className="my-2" />
+          <Divider className="my-2 " />
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="flex item-center gap-2"
+            className="flex item-center justify-center flex-wrap gap-2"
           >
             <a href="https://github.com/tomy08" target="_blank">
               <motion.div whileHover={{ scale: 1.1 }}>
