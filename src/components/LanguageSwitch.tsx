@@ -20,7 +20,13 @@ export default function LanguageSwitch(): JSX.Element {
 
   useEffect(() => {
     const savedLang = localStorage.getItem("lang");
-    setIsSelected(savedLang === "en");
+    if (savedLang === "es") {
+      setIsSelected(false);
+      i18next.changeLanguage("es");
+    } else {
+      i18next.changeLanguage("en");
+      setIsSelected(true);
+    }
   }, []);
 
   return (

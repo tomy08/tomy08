@@ -1,6 +1,7 @@
 import { JSX } from "react";
 import {
   Card,
+  Link,
   CardBody,
   Divider,
   Image,
@@ -16,6 +17,8 @@ import { useTranslation } from "react-i18next";
 
 export default function Header(): JSX.Element {
   const { t } = useTranslation();
+  const pdf =
+    localStorage.getItem("lang") === "en" ? "/cv-en.pdf" : "/cv-es.pdf";
 
   return (
     <Card fullWidth radius="lg">
@@ -49,7 +52,7 @@ export default function Header(): JSX.Element {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-3xl sm:text-4xl  font-bold text-primary text-center"
           >
-            Tomás Santa Cruz 👨‍💻
+            Tomás Santa Cruz
           </motion.h1>
           <motion.h2
             initial={{ opacity: 0 }}
@@ -71,7 +74,14 @@ export default function Header(): JSX.Element {
                 <Github className="w-10 h-10 rounded-full" />
               </motion.div>
             </a>
-            <Button color="primary" variant="bordered" className="h-10">
+            <Button
+              as={Link}
+              target="_blank"
+              href={pdf}
+              color="primary"
+              variant="bordered"
+              className="h-10"
+            >
               {t("header.cv")}
             </Button>
 
