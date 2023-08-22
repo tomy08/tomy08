@@ -1,4 +1,5 @@
 import { Card, CardHeader, Image } from "@nextui-org/react";
+
 import { FC, SVGProps } from "react";
 import ProyectFooter from "./ProjectFooter";
 import { Cards } from "../types/types";

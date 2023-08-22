@@ -1,5 +1,13 @@
 import { ILanguagesTexts } from "../types/types";
 
+const images = {
+  et35: "/et-35.png",
+  tmovie: "/tmovie.png",
+  todoapp: "/todo-app.png",
+  weatherapp: "/weather-app.png",
+  pokedex: "/pokedex.png",
+};
+
 const textsLanguage: ILanguagesTexts = {
   en: {
     translation: {
@@ -11,8 +19,8 @@ const textsLanguage: ILanguagesTexts = {
         about: {
           title: "About me",
           paragraphs: [
-            "Passionate Front-End Developer with expertise in HTML, CSS, JavaScript, and technologies like React, React Native, and Next.js. Currently, at the age of 15, I'm also pursuing studies in computer science at the technical level (Technical School No. 35).",
-            "If you need anything else, feel free to ask! 🚀",
+            "Passionate Front-End Developer with expertise in HTML, CSS, JavaScript, and technologies like React, React Native, and Next.js. Currently, at the age of 15, I'm also pursuing studies in computer science at the technical level school (Technical School No. 35).",
+            "If you need anything, feel free to ask! 🚀",
           ],
         },
         projects: {
@@ -25,7 +33,7 @@ const textsLanguage: ILanguagesTexts = {
                 liveHref: "https://tecnica35.vercel.app",
               },
 
-              image: "/et-35.png",
+              image: images.et35,
             },
             tmovie: {
               title: "TMovie",
@@ -35,7 +43,7 @@ const textsLanguage: ILanguagesTexts = {
                 repoHref: "https://github.com/tomy08/TMovie",
               },
 
-              image: "/tmovie.png",
+              image: images.tmovie,
             },
             todoapp: {
               title: "ToDo App",
@@ -45,7 +53,7 @@ const textsLanguage: ILanguagesTexts = {
                 liveHref: "https://tomy08.github.io/ToDo-App/",
               },
 
-              image: "/todo-app.png",
+              image: images.todoapp,
             },
             weatherapp: {
               title: "Weather App",
@@ -55,7 +63,7 @@ const textsLanguage: ILanguagesTexts = {
                 liveHref: "https://tomy08.github.io/WeatherApp-react/",
               },
 
-              image: "/weather-app.png",
+              image: images.weatherapp,
             },
             pokedex: {
               title: "Pokedex App",
@@ -64,7 +72,7 @@ const textsLanguage: ILanguagesTexts = {
                 repoHref: "https://github.com/tomy08/pokedex-rn",
               },
 
-              image: "/weather-app.png",
+              image: images.pokedex,
             },
           },
         },
@@ -95,7 +103,7 @@ const textsLanguage: ILanguagesTexts = {
                 liveHref: "https://tecnica35.vercel.app",
               },
 
-              image: "/et-35.png",
+              image: images.et35,
             },
             tmovie: {
               title: "TMovie",
@@ -105,7 +113,7 @@ const textsLanguage: ILanguagesTexts = {
                 repoHref: "https://github.com/tomy08/TMovie",
               },
 
-              image: "/tmovie.png",
+              image: images.tmovie,
             },
             todoapp: {
               title: "ToDo App",
@@ -115,7 +123,7 @@ const textsLanguage: ILanguagesTexts = {
                 liveHref: "https://tomy08.github.io/ToDo-App/",
               },
 
-              image: "/todo-app.png",
+              image: images.todoapp,
             },
             weatherapp: {
               title: "Weather App",
@@ -125,7 +133,7 @@ const textsLanguage: ILanguagesTexts = {
                 liveHref: "https://tomy08.github.io/WeatherApp-react/",
               },
 
-              image: "/weather-app.png",
+              image: images.weatherapp,
             },
             pokedex: {
               title: "Pokedex App",
@@ -134,7 +142,7 @@ const textsLanguage: ILanguagesTexts = {
                 repoHref: "https://github.com/tomy08/pokedex-rn",
               },
 
-              image: "/weather-app.png",
+              image: images.pokedex,
             },
           },
         },

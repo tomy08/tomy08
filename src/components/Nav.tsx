@@ -13,7 +13,7 @@ export default function NavBar() {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 0.4, delay: 0.8 }}
+        transition={{ duration: 0.4, delay: 0.6 }}
       >
         <Tabs aria-label="Options" color="primary" variant="bordered">
           <Tab key={t("nav.projects.title")} title={t("nav.projects.title")}>
