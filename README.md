@@ -1,6 +1,6 @@
 ![Banner Image](image/tomydev-bg-readme.png)
 
-## Hi there 👋, I'm Tomás Santa Cruz
+# Hi there 👋, I'm Tomás Santa Cruz
 
 - 👨‍💻 Frontend Developer from Argentina
 - 🏫 Studying in computer science at Technical School No. 35.
@@ -8,6 +8,8 @@
 
 ### Visit my:
 
-**[Blog](https://tomydev-blog.vercel.app/en) - [Website](https://tomydev.me/)**
+**[Website](https://tomydev.me/) - [Blog](https://tomydev-blog.vercel.app/en)**
+
+<hr />
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tomy08&layout=compact&theme=dark)](https://github.com/tomy08/github-readme-stats)
