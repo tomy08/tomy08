@@ -1,11 +1,13 @@
-### Hi there 👋
+![Banner Image](image/tomydev-bg-readme.png)
 
-#### Frontend developer
+## Hi there 👋, I'm Tomás Santa Cruz
 
-- Tech stack: HTML, CSS, JavaScript, TypeScript, React, React Native, and Next.js.
-- Studying in computer science at Technical School No. 35 (arg).
+- 👨‍💻 Frontend Developer from Argentina
+- 🏫 Studying in computer science at Technical School No. 35.
+- 🛠️ My tech toolkit includes React, React Native, Next.js, TypeScript and Tailwind.
 
-#### Contact me
+### Visit my:
 
-- webpage 📟: <a href="https://tomydev.me">tomydev.me</a>
-- Email 📧: tomasesantacruz@gmail.com
+**[Blog](https://tomydev-blog.vercel.app/en) - [Website](https://tomydev.me/)**
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=tomy08&layout=compact&theme=dark)](https://github.com/tomy08/github-readme-stats)
