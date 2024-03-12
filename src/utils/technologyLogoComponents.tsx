@@ -1,4 +1,4 @@
-import { JSX } from "react";
+import { JSX } from 'react'
 export function HTML(): JSX.Element {
   return (
     <svg
@@ -18,7 +18,7 @@ export function HTML(): JSX.Element {
         d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"
       />
     </svg>
-  );
+  )
 }
 export function CSS(): JSX.Element {
   return (
@@ -39,7 +39,7 @@ export function CSS(): JSX.Element {
         d="M24,13v4h-8.9l-0.3-4H24z M19.4,21l0.2,4H24v-4H19.4z M19.8,27h-4l0.3,5.5l7.9,2.6v-4.2l-4.1-1.4L19.8,27z"
       />
     </svg>
-  );
+  )
 }
 
 export {
@@ -50,4 +50,6 @@ export {
   Js,
   Prisma,
   Firebase,
-} from "@react-symbols/icons";
+  Supabase,
+  Astro,
+} from '@react-symbols/icons'
