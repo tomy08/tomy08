@@ -11,6 +11,38 @@ const images = {
   blog: '/blog.png',
 }
 
+const links = {
+  et35: {
+    liveHref: 'https://et-35.vercel.app',
+  },
+  tmovie: {
+    liveHref: 'https://tomy08.github.io/TMovie',
+    repoHref: 'https://github.com/tomy08/TMovie',
+  },
+  todoapp: {
+    repoHref: 'https://github.com/tomy08/ToDo-App',
+    liveHref: 'https://tomy08.github.io/ToDo-App/',
+  },
+  weatherapp: {
+    repoHref: 'https://github.com/tomy08/WeatherApp-react',
+    liveHref: 'https://tomy08.github.io/WeatherApp-react/',
+  },
+  pokedex: {
+    repoHref: 'https://github.com/tomy08/pokedex-rn',
+  },
+  eclectiStore: {
+    repoHref: 'https://github.com/tomy08/EclectiStore',
+    liveHref: 'https://eclecti-store.vercel.app/',
+  },
+  twitterClone: {
+    repoHref: 'https://github.com/tomy08/x-clone',
+  },
+  blog: {
+    repoHref: 'https://github.com/tomy08/tomydev.blog',
+    liveHref: 'https://tomydev-blog.vercel.app/',
+  },
+}
+
 const textsLanguage: ILanguagesTexts = {
   en: {
     translation: {
@@ -32,75 +64,49 @@ const textsLanguage: ILanguagesTexts = {
             et35: {
               title: 'Webpage of Technical School No. 35',
               description: 'Landing page',
-              link: {
-                liveHref: 'https://tecnica35.vercel.app',
-              },
-
+              link: links.et35,
               image: images.et35,
             },
             tmovie: {
               title: 'TMovie',
               description: 'App to watch movies and series',
-              link: {
-                liveHref: 'https://tomy08.github.io/TMovie',
-                repoHref: 'https://github.com/tomy08/TMovie',
-              },
-
+              link: links.tmovie,
               image: images.tmovie,
             },
             todoapp: {
               title: 'ToDo App',
               description: 'Task app to organize your day',
-              link: {
-                repoHref: 'https://github.com/tomy08/ToDo-App',
-                liveHref: 'https://tomy08.github.io/ToDo-App/',
-              },
-
+              link: links.todoapp,
               image: images.todoapp,
             },
             weatherapp: {
               title: 'Weather App',
               description: 'Application to know the weather',
-              link: {
-                repoHref: 'https://github.com/tomy08/WeatherApp-react',
-                liveHref: 'https://tomy08.github.io/WeatherApp-react/',
-              },
-
+              link: links.weatherapp,
               image: images.weatherapp,
             },
             pokedex: {
               title: 'Pokedex App',
               description: 'App to see pokemons and their stats',
-              link: {
-                repoHref: 'https://github.com/tomy08/pokedex-rn',
-              },
-
+              link: links.pokedex,
               image: images.pokedex,
             },
             eclectiStore: {
               title: 'Eclecti Store',
               description: 'E-commerce',
-              link: {
-                repoHref: 'https://github.com/tomy08/EclectiStore',
-                liveHref: 'https://eclecti-store.vercel.app/',
-              },
+              link: links.eclectiStore,
               image: images.eclectiStore,
             },
             twitterClone: {
               title: 'Twitter Clone',
               description: 'Twitter clone',
-              link: {
-                repoHref: 'https://github.com/tomy08/x-clone',
-              },
+              link: links.twitterClone,
               image: images.twitterClone,
             },
             blog: {
               title: 'tomydev.blog',
               description: 'Blog about tech and web development',
-              link: {
-                repoHref: 'https://github.com/tomy08/tomydev.blog',
-                liveHref: 'https://tomydev-blog.vercel.app/',
-              },
+              link: links.blog,
               image: images.blog,
             },
           },
@@ -128,75 +134,49 @@ const textsLanguage: ILanguagesTexts = {
             et35: {
               title: 'Página web de la Escuela Técnica N° 35',
               description: 'Landing page',
-              link: {
-                liveHref: 'https://tecnica35.vercel.app',
-              },
-
+              link: links.et35,
               image: images.et35,
             },
             tmovie: {
               title: 'TMovie',
               description: 'Aplicación para ver películas y series',
-              link: {
-                liveHref: 'https://tomy08.github.io/TMovie',
-                repoHref: 'https://github.com/tomy08/TMovie',
-              },
-
+              link: links.tmovie,
               image: images.tmovie,
             },
             todoapp: {
               title: 'ToDo App',
               description: 'Aplicación de tareas',
-              link: {
-                repoHref: 'https://github.com/tomy08/ToDo-App',
-                liveHref: 'https://tomy08.github.io/ToDo-App/',
-              },
-
+              link: links.todoapp,
               image: images.todoapp,
             },
             weatherapp: {
               title: 'Weather App',
               description: 'Aplicación para saber el clima',
-              link: {
-                repoHref: 'https://github.com/tomy08/WeatherApp-react',
-                liveHref: 'https://tomy08.github.io/WeatherApp-react/',
-              },
-
+              link: links.weatherapp,
               image: images.weatherapp,
             },
             pokedex: {
               title: 'Pokedex App',
               description: 'Aplicación para ver pokemones y sus estadisticas',
-              link: {
-                repoHref: 'https://github.com/tomy08/pokedex-rn',
-              },
-
+              link: links.pokedex,
               image: images.pokedex,
             },
             eclectiStore: {
               title: 'Eclecti Store',
               description: 'E-commerce',
-              link: {
-                repoHref: 'https://github.com/tomy08/EclectiStore',
-                liveHref: 'https://eclecti-store.vercel.app/',
-              },
+              link: links.eclectiStore,
               image: images.eclectiStore,
             },
             twitterClone: {
               title: 'Twitter Clone',
               description: 'Clone de Twitter',
-              link: {
-                repoHref: 'https://github.com/tomy08/x-clone',
-              },
+              link: links.twitterClone,
               image: images.twitterClone,
             },
             blog: {
               title: 'tomydev.blog',
               description: 'Blog sobre tecnología y desarrollo web',
-              link: {
-                repoHref: 'https://github.com/tomy08/tomydev.blog',
-                liveHref: 'https://tomydev-blog.vercel.app/',
-              },
+              link: links.blog,
               image: images.blog,
             },
           },

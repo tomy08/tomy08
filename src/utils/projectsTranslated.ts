@@ -98,7 +98,6 @@ export function useProjectsTranslated(): ProjectsTranslated {
         description: t('nav.projects.cards.twitterClone.description'),
         link: {
           repoHref: t('nav.projects.cards.twitterClone.link.repoHref'),
-          liveHref: t('nav.projects.cards.twitterClone.link.liveHref'),
         },
         image: t('nav.projects.cards.twitterClone.image'),
       },
@@ -111,7 +110,6 @@ export function useProjectsTranslated(): ProjectsTranslated {
         description: t('nav.projects.cards.pokedex.description'),
         link: {
           repoHref: t('nav.projects.cards.pokedex.link.repoHref'),
-          liveHref: t('nav.projects.cards.pokedex.link.liveHref'),
         },
         image: t('nav.projects.cards.pokedex.image'),
       },
