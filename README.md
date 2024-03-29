@@ -6,6 +6,16 @@
 - 🏫 Studying in computer science at Technical School No. 35.
 - 🛠️ My tech toolkit includes React, React Native, Next.js, TypeScript and Tailwind.
 
+### Technologies I normally use for:
+
+#### Frontend
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,tailwind,js,ts,astro,react,nextjs)](https://skillicons.dev)
+
+#### Backend
+
+[![My Skills](https://skillicons.dev/icons?i=nodejs,express,py,fastapi)](https://skillicons.dev)
+
 ### Visit my:
 
 **[Website](https://tomydev.me/) - [Blog](https://tomydev-blog.vercel.app/en)**
