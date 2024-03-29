@@ -13,7 +13,7 @@ const images = {
 
 const links = {
   et35: {
-    liveHref: 'https://et-35.vercel.app',
+    liveHref: 'https://escuelatecnica35.com.ar',
   },
   tmovie: {
     liveHref: 'https://tomy08.github.io/TMovie',
