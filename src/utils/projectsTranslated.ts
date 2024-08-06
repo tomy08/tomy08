@@ -38,6 +38,7 @@ const technologies = {
   ],
   tableTennisAPI: [TECHNOLOGIES.Node, TECHNOLOGIES.Express],
   tableTennisDB: [TECHNOLOGIES.Database],
+  projectOrganizer: [TECHNOLOGIES.Reactts, TECHNOLOGIES.Tailwind],
 }
 
 type ProjectCard = {
@@ -71,8 +72,46 @@ export function useProjectsTranslated(): ProjectsTranslated {
         },
         image: t('nav.projects.cards.et35.image'),
       },
-      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-7',
+      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-12',
       technologies: technologies.et35,
+    },
+    blog: {
+      cards: {
+        title: t('nav.projects.cards.blog.title'),
+        description: t('nav.projects.cards.blog.description'),
+        link: {
+          repoHref: t('nav.projects.cards.blog.link.repoHref'),
+          liveHref: t('nav.projects.cards.blog.link.liveHref'),
+        },
+        image: t('nav.projects.cards.blog.image'),
+      },
+      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-5',
+      technologies: technologies.blog,
+    },
+    codiniClone: {
+      cards: {
+        title: t('nav.projects.cards.codiniClone.title'),
+        description: t('nav.projects.cards.codiniClone.description'),
+        link: {
+          repoHref: t('nav.projects.cards.codiniClone.link.repoHref'),
+        },
+        image: t('nav.projects.cards.codiniClone.image'),
+      },
+      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-4',
+      technologies: technologies.codiniClone,
+    },
+    todoapp: {
+      cards: {
+        title: t('nav.projects.cards.todoapp.title'),
+        description: t('nav.projects.cards.todoapp.description'),
+        link: {
+          repoHref: t('nav.projects.cards.todoapp.link.repoHref'),
+          liveHref: t('nav.projects.cards.todoapp.link.liveHref'),
+        },
+        image: t('nav.projects.cards.todoapp.image'),
+      },
+      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-3',
+      technologies: technologies.todoapp,
     },
     eclectiStore: {
       cards: {
@@ -84,21 +123,47 @@ export function useProjectsTranslated(): ProjectsTranslated {
         },
         image: t('nav.projects.cards.eclectiStore.image'),
       },
-      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-5',
+      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-4',
       technologies: technologies.eclectiStore,
     },
-    codiniClone: {
+    twitterClone: {
       cards: {
-        title: t('nav.projects.cards.codiniClone.title'),
-        description: t('nav.projects.cards.codiniClone.description'),
+        title: t('nav.projects.cards.twitterClone.title'),
+        description: t('nav.projects.cards.twitterClone.description'),
         link: {
-          repoHref: t('nav.projects.cards.codiniClone.link.repoHref'),
+          repoHref: t('nav.projects.cards.twitterClone.link.repoHref'),
         },
-        image: t('nav.projects.cards.codiniClone.image'),
+        image: t('nav.projects.cards.twitterClone.image'),
+      },
+      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-4',
+      technologies: technologies.twitterClone,
+    },
+    pokedex: {
+      cards: {
+        title: t('nav.projects.cards.pokedex.title'),
+        description: t('nav.projects.cards.pokedex.description'),
+        link: {
+          repoHref: t('nav.projects.cards.pokedex.link.repoHref'),
+        },
+        image: t('nav.projects.cards.pokedex.image'),
+      },
+      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-4',
+      technologies: technologies.pokedex,
+    },
+    weatherapp: {
+      cards: {
+        title: t('nav.projects.cards.weatherapp.title'),
+        description: t('nav.projects.cards.weatherapp.description'),
+        link: {
+          repoHref: t('nav.projects.cards.weatherapp.link.repoHref'),
+          liveHref: t('nav.projects.cards.weatherapp.link.liveHref'),
+        },
+        image: t('nav.projects.cards.weatherapp.image'),
       },
       containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-6',
-      technologies: technologies.codiniClone,
+      technologies: technologies.weatherapp,
     },
+
     tableTennisAPI: {
       cards: {
         title: t('nav.projects.cards.tableTennisAPI.title'),
@@ -123,70 +188,6 @@ export function useProjectsTranslated(): ProjectsTranslated {
       containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-3',
       technologies: technologies.tableTennisDB,
     },
-    blog: {
-      cards: {
-        title: t('nav.projects.cards.blog.title'),
-        description: t('nav.projects.cards.blog.description'),
-        link: {
-          repoHref: t('nav.projects.cards.blog.link.repoHref'),
-          liveHref: t('nav.projects.cards.blog.link.liveHref'),
-        },
-        image: t('nav.projects.cards.blog.image'),
-      },
-      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-5',
-      technologies: technologies.blog,
-    },
-    twitterClone: {
-      cards: {
-        title: t('nav.projects.cards.twitterClone.title'),
-        description: t('nav.projects.cards.twitterClone.description'),
-        link: {
-          repoHref: t('nav.projects.cards.twitterClone.link.repoHref'),
-        },
-        image: t('nav.projects.cards.twitterClone.image'),
-      },
-      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-4',
-      technologies: technologies.twitterClone,
-    },
-    pokedex: {
-      cards: {
-        title: t('nav.projects.cards.pokedex.title'),
-        description: t('nav.projects.cards.pokedex.description'),
-        link: {
-          repoHref: t('nav.projects.cards.pokedex.link.repoHref'),
-        },
-        image: t('nav.projects.cards.pokedex.image'),
-      },
-      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-3',
-      technologies: technologies.pokedex,
-    },
-    weatherapp: {
-      cards: {
-        title: t('nav.projects.cards.weatherapp.title'),
-        description: t('nav.projects.cards.weatherapp.description'),
-        link: {
-          repoHref: t('nav.projects.cards.weatherapp.link.repoHref'),
-          liveHref: t('nav.projects.cards.weatherapp.link.liveHref'),
-        },
-        image: t('nav.projects.cards.weatherapp.image'),
-      },
-      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-3',
-      technologies: technologies.weatherapp,
-    },
-    todoapp: {
-      cards: {
-        title: t('nav.projects.cards.todoapp.title'),
-        description: t('nav.projects.cards.todoapp.description'),
-        link: {
-          repoHref: t('nav.projects.cards.todoapp.link.repoHref'),
-          liveHref: t('nav.projects.cards.todoapp.link.liveHref'),
-        },
-        image: t('nav.projects.cards.todoapp.image'),
-      },
-      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-5',
-      technologies: technologies.todoapp,
-    },
-
     tmovie: {
       cards: {
         title: t('nav.projects.cards.tmovie.title'),
@@ -197,8 +198,20 @@ export function useProjectsTranslated(): ProjectsTranslated {
         },
         image: t('nav.projects.cards.tmovie.image'),
       },
-      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-4',
+      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-5',
       technologies: technologies.tmovie,
+    },
+    projectOrganizer: {
+      cards: {
+        title: t('nav.projects.cards.projectOrganizer.title'),
+        description: t('nav.projects.cards.projectOrganizer.description'),
+        link: {
+          repoHref: t('nav.projects.cards.projectOrganizer.link.repoHref'),
+        },
+        image: t('nav.projects.cards.projectOrganizer.image'),
+      },
+      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-7',
+      technologies: technologies.projectOrganizer,
     },
   }
 }

@@ -12,6 +12,7 @@ const images = {
   codiniClone: '/codini-clone.png',
   tableTennisAPI: '/table-tennis-api.png',
   tableTennisDB: '/table-tennis-db.png',
+  projectOrganizer: '/project-organizer.png',
 }
 
 const links = {
@@ -53,6 +54,10 @@ const links = {
   },
   tableTennisDB: {
     repoHref: 'https://github.com/tomy08/table-tennis-db',
+  },
+  projectOrganizer: {
+    repoHref: 'https://github.com/tomy08/react-project-organizer',
+    liveHref: 'https://flowagile.vercel.app/',
   },
 }
 
@@ -139,6 +144,12 @@ const textsLanguage: ILanguagesTexts = {
               description: 'Database for table tennis app',
               link: links.tableTennisDB,
               image: images.tableTennisDB,
+            },
+            projectOrganizer: {
+              title: 'Flow Agile',
+              description: 'Project Organizer app',
+              link: links.projectOrganizer,
+              image: images.projectOrganizer,
             },
           },
         },
@@ -227,6 +238,12 @@ const textsLanguage: ILanguagesTexts = {
               description: 'Base de datos para app de tenis de mesa',
               link: links.tableTennisDB,
               image: images.tableTennisDB,
+            },
+            projectOrganizer: {
+              title: 'Flow Agile',
+              description: 'Organizador de proyectos',
+              link: links.projectOrganizer,
+              image: images.projectOrganizer,
             },
           },
         },
