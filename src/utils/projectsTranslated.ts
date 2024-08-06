@@ -9,6 +9,12 @@ const technologies = {
     TECHNOLOGIES.Tailwind,
     TECHNOLOGIES.Prisma,
   ],
+  codiniClone: [
+    TECHNOLOGIES.Astro,
+    TECHNOLOGIES.HTML,
+    TECHNOLOGIES.Js,
+    TECHNOLOGIES.Tailwind,
+  ],
   tmovie: [TECHNOLOGIES.HTML, TECHNOLOGIES.CSS, TECHNOLOGIES.Js],
   todoapp: [TECHNOLOGIES.Reactts, TECHNOLOGIES.CSS],
   weatherapp: [TECHNOLOGIES.Reactts, TECHNOLOGIES.Tailwind],
@@ -30,6 +36,8 @@ const technologies = {
     TECHNOLOGIES.Js,
     TECHNOLOGIES.Tailwind,
   ],
+  tableTennisAPI: [TECHNOLOGIES.Node, TECHNOLOGIES.Express],
+  tableTennisDB: [TECHNOLOGIES.Database],
 }
 
 type ProjectCard = {
@@ -78,6 +86,42 @@ export function useProjectsTranslated(): ProjectsTranslated {
       },
       containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-5',
       technologies: technologies.eclectiStore,
+    },
+    codiniClone: {
+      cards: {
+        title: t('nav.projects.cards.codiniClone.title'),
+        description: t('nav.projects.cards.codiniClone.description'),
+        link: {
+          repoHref: t('nav.projects.cards.codiniClone.link.repoHref'),
+        },
+        image: t('nav.projects.cards.codiniClone.image'),
+      },
+      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-6',
+      technologies: technologies.codiniClone,
+    },
+    tableTennisAPI: {
+      cards: {
+        title: t('nav.projects.cards.tableTennisAPI.title'),
+        description: t('nav.projects.cards.tableTennisAPI.description'),
+        link: {
+          repoHref: t('nav.projects.cards.tableTennisAPI.link.repoHref'),
+        },
+        image: t('nav.projects.cards.tableTennisAPI.image'),
+      },
+      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-3',
+      technologies: technologies.tableTennisAPI,
+    },
+    tableTennisDB: {
+      cards: {
+        title: t('nav.projects.cards.tableTennisDB.title'),
+        description: t('nav.projects.cards.tableTennisDB.description'),
+        link: {
+          repoHref: t('nav.projects.cards.tableTennisDB.link.repoHref'),
+        },
+        image: t('nav.projects.cards.tableTennisDB.image'),
+      },
+      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-3',
+      technologies: technologies.tableTennisDB,
     },
     blog: {
       cards: {

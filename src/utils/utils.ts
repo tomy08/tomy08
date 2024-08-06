@@ -9,6 +9,9 @@ const images = {
   eclectiStore: '/eclecti-store.png',
   twitterClone: '/twitter-clone.png',
   blog: '/blog.png',
+  codiniClone: '/codini-clone.png',
+  tableTennisAPI: '/table-tennis-api.png',
+  tableTennisDB: '/table-tennis-db.png',
 }
 
 const links = {
@@ -40,6 +43,16 @@ const links = {
   blog: {
     repoHref: 'https://github.com/tomy08/tomydev.blog',
     liveHref: 'https://tomydev-blog.vercel.app/',
+  },
+  codiniClone: {
+    repoHref: 'https://github.com/tomy08/codini-clone',
+    liveHref: 'https://codini.vercel.app/',
+  },
+  tableTennisAPI: {
+    repoHref: 'https://github.com/tomy08/table-tennis-api',
+  },
+  tableTennisDB: {
+    repoHref: 'https://github.com/tomy08/table-tennis-db',
   },
 }
 
@@ -108,6 +121,24 @@ const textsLanguage: ILanguagesTexts = {
               description: 'Blog about tech and web development',
               link: links.blog,
               image: images.blog,
+            },
+            codiniClone: {
+              title: 'Codini Clone',
+              description: 'An enhanced version of codini.com.ar',
+              link: links.codiniClone,
+              image: images.codiniClone,
+            },
+            tableTennisAPI: {
+              title: 'Table Tennis API',
+              description: 'API for table tennis league',
+              link: links.tableTennisAPI,
+              image: images.tableTennisAPI,
+            },
+            tableTennisDB: {
+              title: 'Table Tennis DB',
+              description: 'Database for table tennis app',
+              link: links.tableTennisDB,
+              image: images.tableTennisDB,
             },
           },
         },
@@ -178,6 +209,24 @@ const textsLanguage: ILanguagesTexts = {
               description: 'Blog sobre tecnología y desarrollo web',
               link: links.blog,
               image: images.blog,
+            },
+            codiniClone: {
+              title: 'Codini Clone',
+              description: 'Una versión mejorada de codini.com.ar',
+              link: links.codiniClone,
+              image: images.codiniClone,
+            },
+            tableTennisAPI: {
+              title: 'API de Tenis de Mesa',
+              description: 'API para liga de tenis de mesa',
+              link: links.tableTennisAPI,
+              image: images.tableTennisAPI,
+            },
+            tableTennisDB: {
+              title: 'Base de datos de Tenis de Mesa',
+              description: 'Base de datos para app de tenis de mesa',
+              link: links.tableTennisDB,
+              image: images.tableTennisDB,
             },
           },
         },
