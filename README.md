@@ -3,7 +3,7 @@
 - 👨‍💻 Frontend Developer from Argentina
 - 🏫 Studying in computer science at Technical School No. 35.
 - 🌱 I’m currently learning Python.
-- 📫 Visit my: [Website](https://tomydev.me/) - [Blog](https://tomydev-blog.vercel.app)
+- 📫 Visit my: [Website](https://tomydev.vercel.app/) - [Blog](https://tomydev-blog.vercel.app)
 
 ### Technologies I typically work with:
 
