@@ -210,7 +210,7 @@ export function useProjectsTranslated(): ProjectsTranslated {
         },
         image: t('nav.projects.cards.projectOrganizer.image'),
       },
-      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-7',
+      containerClassName: 'w-full h-[200px] col-span-12 sm:col-span-7',
       technologies: technologies.projectOrganizer,
     },
   }
