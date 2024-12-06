@@ -94,6 +94,7 @@ export function useProjectsTranslated(): ProjectsTranslated {
         description: t('nav.projects.cards.codiniClone.description'),
         link: {
           repoHref: t('nav.projects.cards.codiniClone.link.repoHref'),
+          liveHref: t('nav.projects.cards.codiniClone.link.liveHref'),
         },
         image: t('nav.projects.cards.codiniClone.image'),
       },
