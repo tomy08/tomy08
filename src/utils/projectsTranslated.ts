@@ -39,6 +39,12 @@ const technologies = {
   tableTennisAPI: [TECHNOLOGIES.Node, TECHNOLOGIES.Express],
   tableTennisDB: [TECHNOLOGIES.Database],
   projectOrganizer: [TECHNOLOGIES.Reactts, TECHNOLOGIES.Tailwind],
+  tennisTracker: [
+    TECHNOLOGIES.Reactts,
+    TECHNOLOGIES.Next,
+    TECHNOLOGIES.Tailwind,
+    TECHNOLOGIES.Supabase,
+  ],
 }
 
 type ProjectCard = {
@@ -72,7 +78,7 @@ export function useProjectsTranslated(): ProjectsTranslated {
         },
         image: t('nav.projects.cards.et35.image'),
       },
-      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-12',
+      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-8',
       technologies: technologies.et35,
     },
     blog: {
@@ -85,8 +91,21 @@ export function useProjectsTranslated(): ProjectsTranslated {
         },
         image: t('nav.projects.cards.blog.image'),
       },
-      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-5',
+      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-4',
       technologies: technologies.blog,
+    },
+    tennisTracker: {
+      cards: {
+        title: t('nav.projects.cards.tennisTracker.title'),
+        description: t('nav.projects.cards.tennisTracker.description'),
+        link: {
+          repoHref: t('nav.projects.cards.tennisTracker.link.repoHref'),
+          liveHref: t('nav.projects.cards.tennisTracker.link.liveHref'),
+        },
+        image: t('nav.projects.cards.tennisTracker.image'),
+      },
+      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-5',
+      technologies: technologies.codiniClone,
     },
     codiniClone: {
       cards: {
@@ -211,7 +230,7 @@ export function useProjectsTranslated(): ProjectsTranslated {
         },
         image: t('nav.projects.cards.projectOrganizer.image'),
       },
-      containerClassName: 'w-full h-[200px] col-span-12 sm:col-span-7',
+      containerClassName: 'w-full h-[300px] col-span-12 sm:col-span-7',
       technologies: technologies.projectOrganizer,
     },
   }

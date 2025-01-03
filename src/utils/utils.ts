@@ -13,6 +13,7 @@ const images = {
   tableTennisAPI: '/table-tennis-api.png',
   tableTennisDB: '/table-tennis-db.png',
   projectOrganizer: '/project-organizer.png',
+  tennisTracker: '/tennis-tracker.png',
 }
 
 const links = {
@@ -58,6 +59,10 @@ const links = {
   projectOrganizer: {
     repoHref: 'https://github.com/tomy08/react-project-organizer',
     liveHref: 'https://flowagile.vercel.app/',
+  },
+  tennisTracker: {
+    repoHref: 'https://github.com/tomy08/tennis-tracker',
+    liveHref: 'https://tennistracker.vercel.app/',
   },
 }
 
@@ -151,6 +156,12 @@ const textsLanguage: ILanguagesTexts = {
               link: links.projectOrganizer,
               image: images.projectOrganizer,
             },
+            tennisTracker: {
+              title: 'Tennis Tracker',
+              description: 'Find friends to play tennis and track your matches',
+              link: links.tennisTracker,
+              image: images.tennisTracker,
+            },
           },
         },
       },
@@ -166,7 +177,7 @@ const textsLanguage: ILanguagesTexts = {
         about: {
           title: 'Sobre mí',
           paragraphs: [
-            'Desarrollador Front-End apasionado con experiencia en HTML, CSS, JavaScript y tecnologías como React, React Native y Next.js. Actualmente, con 15 años de edad, también estoy estudiando en el nivel técnico en computación (Escuela Técnica N° 35).',
+            'Desarrollador Front-End con experiencia en HTML, CSS, JavaScript y tecnologías como React, React Native y Next.js. Actualmente estudio en la Escuela Técnica N° 35, donde me especializo en computación. Siempre en busca de nuevos desafíos y aprendiendo constantemente.',
             'Si necesitas algo más, ¡estoy aquí para ayudarte! 🚀',
           ],
         },
@@ -244,6 +255,12 @@ const textsLanguage: ILanguagesTexts = {
               description: 'Organizador de proyectos',
               link: links.projectOrganizer,
               image: images.projectOrganizer,
+            },
+            tennisTracker: {
+              title: 'Tennis Tracker',
+              description: 'App para seguir partidos de tenis y buscar amigos',
+              link: links.tennisTracker,
+              image: images.tennisTracker,
             },
           },
         },
