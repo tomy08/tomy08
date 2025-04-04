@@ -1,9 +1,11 @@
 # Hi there 👋, I'm Tomás Santa Cruz
 
-- 👨‍💻 Frontend Developer from Argentina
-- 🏫 Studying in computer science at Technical School No. 35.
-- 🌱 I’m currently learning Python.
-- 📫 Visit my: [Website](https://tomydev.vercel.app/) - [Blog](https://tomydev-blog.vercel.app)
+👨‍💻 Frontend Developer from Argentina  
+🏫 Studying computer science at Technical School No. 35  
+📱 Currently focused on mobile development and deepening my frontend skills  
+⚛️ Experienced with React, React Native, Next.js, HTML, CSS, and JavaScript  
+🚀 Always looking for new challenges and projects to grow as a developer  
+📫 Check out my [Website](https://tomydev.vercel.app/) or visit my [Blog](https://tomydev-blog.vercel.app)
 
 ### Technologies I typically work with:
 
