@@ -1,11 +1,9 @@
 # About Me:
 
 🔭 I’m currently working at **Equilybrio** as a Fullstack Developer <br/>
-🌱 I’m currently learning **Python, Docker, CI/CD pipelines, GitHub Actions**  <br/>
+🌱 I’m currently learning **Docker, CI/CD pipelines, GitHub Actions**  <br/>
 👨‍💻 Tech Stack: React, Next.js, Tailwind, Supabase, PostgreSQL, Flask  <br/>
 🎯 My goal is to grow as a fullstack developer while exploring backend and mobile development  <br/>
-📫 How to reach me: **[tomasesantacruz@gmail.com](mailto:tomasesantacruz@gmail.com)**
-
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/tom%C3%A1s-santa-cruz-a69a91275/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tomasesantacruz@gmail.com) 
@@ -16,10 +14,7 @@
 ![](https://nirzak-streak-stats.vercel.app/?user=tomy08&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=tomy08&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=tomy08&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
