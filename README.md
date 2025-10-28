@@ -1,7 +1,7 @@
 # About Me:
 
 🔭 I’m currently working at **Equilybrio** as a Fullstack Developer <br/>
-🌱 I’m currently learning **Docker, CI/CD pipelines, GitHub Actions**  <br/>
+🌱 I’m currently learning software design patterns, system architecture, and design principles <br/>
 👨‍💻 Tech Stack: React, Next.js, Tailwind, Supabase, PostgreSQL, Flask  <br/>
 🎯 My goal is to grow as a fullstack developer while exploring backend and mobile development  <br/>
 
@@ -17,5 +17,6 @@
 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
 
 
