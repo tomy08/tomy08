@@ -1,10 +1,4 @@
-# About Me:
-
-🔭 I’m currently working at **Equilybrio** as a Fullstack Developer <br/>
-🌱 I’m currently learning software design patterns, system architecture, and design principles <br/>
-👨‍💻 Tech Stack: React, Next.js, Tailwind, Supabase, PostgreSQL, Flask  <br/>
-🎯 My goal is to grow as a fullstack developer while exploring backend and mobile development  <br/>
-
+# Hi, I'm Tomas Santa Cruz
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/tom%C3%A1s-santa-cruz-a69a91275/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tomasesantacruz@gmail.com) 
 
@@ -17,6 +11,7 @@
 
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
 
 
 
